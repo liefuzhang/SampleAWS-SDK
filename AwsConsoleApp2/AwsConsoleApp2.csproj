@@ -95,22 +95,22 @@
         <Reference Include="AWSSDK.Core, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <SpecificVersion>False</SpecificVersion>
           <Private>True</Private>
-          <HintPath>D:\AWS SDK\bin\Net45\AWSSDK.Core.dll</HintPath>
+          <HintPath>..\..\..\Program Files (x86)\AWS SDK for .NET\bin\Net45\AWSSDK.Core.dll</HintPath>
         </Reference>
         <Reference Include="AWSSDK.EC2, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <SpecificVersion>False</SpecificVersion>
           <Private>True</Private>
-          <HintPath>D:\AWS SDK\bin\Net45\AWSSDK.EC2.dll</HintPath>
+          <HintPath>..\..\..\Program Files (x86)\AWS SDK for .NET\bin\Net45\AWSSDK.EC2.dll</HintPath>
         </Reference>
         <Reference Include="AWSSDK.SimpleDB, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <SpecificVersion>False</SpecificVersion>
           <Private>True</Private>
-          <HintPath>D:\AWS SDK\bin\Net45\AWSSDK.SimpleDB.dll</HintPath>
+          <HintPath>..\..\..\Program Files (x86)\AWS SDK for .NET\bin\Net45\AWSSDK.SimpleDB.dll</HintPath>
         </Reference>
         <Reference Include="AWSSDK.S3, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <SpecificVersion>False</SpecificVersion>
           <Private>True</Private>
-          <HintPath>D:\AWS SDK\bin\Net45\AWSSDK.S3.dll</HintPath>
+          <HintPath>..\..\..\Program Files (x86)\AWS SDK for .NET\bin\Net45\AWSSDK.S3.dll</HintPath>
         </Reference>
       </ItemGroup>
     </Otherwise>

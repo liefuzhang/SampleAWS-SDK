@@ -4,14 +4,14 @@ using Amazon.S3.Model;
 
 namespace s3.amazon.com.docsamples {
     class UploadObject {
-        static string bucketName = "*** bucket name ***";
-        static string keyName = "*** key name when object is created ***";
-        static string filePath = "*** absolute path to a sample file to upload ***";
+        static string bucketName = "projects.liefuzhang.com";
+        static string keyName = "testObj";
+        static string filePath = "C:\\Users\\liefu.zhang\\Desktop\\Hello world.txt";
 
         static IAmazonS3 client;
 
         public static void Main(string[] args) {
-            using (client = new AmazonS3Client(Amazon.RegionEndpoint.USEast1)) {
+            using (client = new AmazonS3Client(Amazon.RegionEndpoint.APSoutheast2)) {
                 Console.WriteLine("Uploading an object");
                 WritingAnObject();
             }
