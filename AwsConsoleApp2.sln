@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsConsoleApp2", "AwsConsol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadFileToS3Bucket", "UploadFileToS3Bucket\UploadFileToS3Bucket.csproj", "{D222B3E6-309F-4D48-9FD0-B27222A0FB58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipartUpload-HighLevelAPI", "MultipartUpload-HighLevelAPI\MultipartUpload-HighLevelAPI.csproj", "{A4DB3A6A-7959-4517-844B-4D00AE09436C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetAnObject", "GetAnObject\GetAnObject.csproj", "{1C2BC597-5666-48FA-B245-24C85DE9050B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D222B3E6-309F-4D48-9FD0-B27222A0FB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D222B3E6-309F-4D48-9FD0-B27222A0FB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D222B3E6-309F-4D48-9FD0-B27222A0FB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2BC597-5666-48FA-B245-24C85DE9050B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2BC597-5666-48FA-B245-24C85DE9050B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2BC597-5666-48FA-B245-24C85DE9050B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2BC597-5666-48FA-B245-24C85DE9050B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
